@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="p-5 bg-black">
       <Banner />
-      <About />
+      {/* <About /> */}
     </div>
   );
 }

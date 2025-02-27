@@ -30,6 +30,14 @@ export default function RootLayout({
             src="/65f2ff660acfee8ba5cd3b36_border-left-top.svg"
             className="border-left-top"
           />
+          <img
+            src="/6602ebd9ae42af7d61b21839_border-right-top-mobile.svg"
+            className="border-right-top-mobile"
+          />
+          <img
+            src="/6602ebcc33f08a6c0c9d0393_border-left-top-mobile.svg"
+            className="border-left-top-mobile"
+          />
         </div>
         <div className="border-left-container">
           <img

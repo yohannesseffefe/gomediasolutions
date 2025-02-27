@@ -1,14 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.font-helvetica1 {
-  font-family: var(--font-helvetica1);
+* {
+  font-family: "Montserrat", serif;
 }
 
-.font-helvetica2 {
-  font-family: var(--font-helvetica2);
+.gradient-bg {
+  z-index: -4;
+  background-image: linear-gradient(210deg, #c6d9e1, #f3f2ee 74%);
+  width: 100vw;
+  height: 100dvh;
+  margin-top: 0;
+  display: block;
+  position: fixed;
+  top: 0;
 }
-.font-helvetica3 {
-  font-family: var(--font-helvetica3);
+.border-top {
+  z-index: 110;
+  justify-content: space-between;
+  align-items: stretch;
+  display: flex;
+  position: fixed;
+  inset: 0% 0% auto;
+}
+.logo {
+  z-index: 110;
+  width: 11em;
+  height: 3em;
+  margin-top: 2em;
+  margin-left: 2em;
+  position: relative;
+}
+
+.nav {
+  z-index: 105;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  position: fixed;
+  inset: 1.6em 0% auto;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  display: inline-block;
+  border: 0;
+}
+.border-right-top {
+  width: 51vw;
+  position: absolute;
+  inset: 0 -0.2em auto auto;
+}
+.border-left-top {
+  width: 51vw;
+  position: absolute;
+  inset: 0 auto auto -0.2em;
+}
+.border-left-container {
+  z-index: 100;
+  border-left: 0.8em solid #f4f9fb;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  margin-left: -1px;
+  display: flex;
+  position: fixed;
+  inset: 0% auto 0% 0%;
+}
+.border-left-center {
+  width: 5.63em;
+  margin-left: -0.8em;
+}
+
+.border-right-container {
+  z-index: 100;
+  border-right: 0.8em solid #f0f5f7;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  inset: 0% 0% 0% auto;
+}
+.border-right-center {
+  width: 5.63em;
+  position: relative;
+  right: -0.8em;
+}
+
+.border-bottom {
+  z-index: 100;
+  border-bottom: 0.8em solid #f4f9fb;
+  height: 2em;
+  display: block;
+  position: fixed;
+  inset: auto 0% 0%;
+}
+
+.border-left-bottom {
+  width: 6.25em;
+  position: absolute;
+  inset: auto auto -0.9em 0;
+}
+
+.border-right-bottom {
+  width: 6.25em;
+  position: absolute;
+  inset: auto 0 -0.9em auto;
+}
+
+.section {
+  padding-bottom: 6.25em;
+  padding-left: 8.75em;
+  padding-right: 8.75em;
+  position: relative;
+  background-color: #2f2d30;
+}
+
+@media only screen and (max-width: 600px) {
+  .section {
+    padding-bottom: 3.25em;
+    padding-left: 2.75em;
+    padding-right: 2.75em;
+  }
 }

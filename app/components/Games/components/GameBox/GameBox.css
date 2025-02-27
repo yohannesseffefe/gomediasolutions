@@ -1,0 +1,13 @@
+.octagon {
+  width: 500px;
+  height: 400px;
+  background-image: url("/pentagon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px) {
+  .octagon {
+    width: 100% !important;
+  }
+}

@@ -4,6 +4,7 @@
   background-image: url("/pentagon.svg");
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center center;
 }
 
 @media only screen and (max-width: 600px) {

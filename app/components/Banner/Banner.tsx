@@ -16,7 +16,7 @@ function Banner() {
         start: "top 80%", // Start animation when the top of the section hits 80% from the top of viewport
         end: "bottom 20%", // End animation when the bottom of the section hits 20% from the top of viewport
         toggleActions: "play none none reverse", // play on enter, reverse on leave
-        markers: true, // Set to true for debugging
+        markers: false, // Set to true for debugging
       },
     });
     scrollTrigger = ScrollTrigger.getAll().pop();

@@ -10,3 +10,9 @@ button {
   justify-content: center;
   background-image: linear-gradient(#000080, #6a329f);
 }
+
+@media only screen and (max-width: 600px) {
+  button {
+    width: 120px;
+  }
+}

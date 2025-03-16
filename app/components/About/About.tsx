@@ -25,7 +25,7 @@ function About() {
         <div className="flex bg-white flex-col  justify-between  md:h-[350px] h-auto rounded-[20px] p-[20px] w-full ">
           <h1 className="text-black text-[45px] font-normal">02</h1>
           <div className="flex flex-col gap-5">
-            <h1 className="text-black text-[25px] font-normal">&nbsp;</h1>
+            <h1 className="text-black text-[25px] font-normal">Why GOMIDA? </h1>
             <p className="text-black text-[13px] font-normal text-left">
               ✅ Skill-Based, No Luck, No Betting – Our games reward skill and
               strategy,

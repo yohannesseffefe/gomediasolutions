@@ -8,6 +8,7 @@ import PlayGame from "./components/PlayGame/PlayGame";
 import Teams from "./components/Teams/Teams";
 import Video from "./components/Video/Video";
 import { ReactLenis } from "@studio-freight/react-lenis";
+import Works from "./components/Works/Works";
 export default function Home() {
   return (
     <>
@@ -18,6 +19,7 @@ export default function Home() {
         <PlayGame />
         <ConnectingDots />
         <Games />
+        <Works />
         <Teams />
         <Contact />
       </ReactLenis>

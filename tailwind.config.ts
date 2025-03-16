@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  darkMode: ["class"],
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,6 +9,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      animation: {
+        marquee: "marquee var(--duration) linear infinite",
+        "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -42,6 +47,13 @@ const config: Config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        chart: {
+          "1": "hsl(var(--chart-1))",
+          "2": "hsl(var(--chart-2))",
+          "3": "hsl(var(--chart-3))",
+          "4": "hsl(var(--chart-4))",
+          "5": "hsl(var(--chart-5))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -49,28 +61,44 @@ const config: Config = {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
+        marquee: {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(calc(-100% - var(--gap)))" },
+        },
         gradient: {
-          "0%": { backgroundPosition: "0% 50%" },
-          "50%": { backgroundPosition: "100% 50%" },
-          "100%": { backgroundPosition: "0% 50%" },
+          "0%": {
+            backgroundPosition: "0% 50%",
+          },
+          "50%": {
+            backgroundPosition: "100% 50%",
+          },
+          "100%": {
+            backgroundPosition: "0% 50%",
+          },
         },
         "star-movement-bottom": {
-          "0%": { transform: "translate(0%, 0%)", opacity: "1" },
-          "100%": { transform: "translate(-100%, 0%)", opacity: "0" },
+          "0%": {
+            transform: "translate(0%, 0%)",
+            opacity: "1",
+          },
+          "100%": {
+            transform: "translate(-100%, 0%)",
+            opacity: "0",
+          },
         },
         "star-movement-top": {
-          "0%": { transform: "translate(0%, 0%)", opacity: "1" },
-          "100%": { transform: "translate(100%, 0%)", opacity: "0" },
+          "0%": {
+            transform: "translate(0%, 0%)",
+            opacity: "1",
+          },
+          "100%": {
+            transform: "translate(100%, 0%)",
+            opacity: "0",
+          },
         },
-      },
-      animation: {
-        gradient: "gradient 8s linear infinite",
-        "star-movement-bottom":
-          "star-movement-bottom linear infinite alternate",
-        "star-movement-top": "star-movement-top linear infinite alternate",
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animate")],
 };
 export default config;

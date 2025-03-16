@@ -8,9 +8,11 @@ function Teams() {
           Teams
         </h1>
         <div className="flex gap-3 justify-between items-center w-full md:flex-row flex-col">
-          <Team />
-          <Team />
-          <Team />
+          <Team
+            name={"Selam"}
+            photo={"/selam.jpg"}
+            position={"CEO - Founder"}
+          />
         </div>
       </div>
     </div>

@@ -13,20 +13,20 @@ function Games() {
         <GameBox
           title={"House of Chewata"}
           text={
-            "The core gamification platform, hosting hyper-casual, play-to-earn games that are easy to access and rewarding."
+            "Our flagship gaming ecosystem, where users play skill-based games, earn rewards, and brands integrate into gamified experiences."
           }
         />
 
         <GameBox
           title={"House of Champions "}
           text={
-            "A developer-driven hub where we organize hackathons and competitions to crowdsource innovation, bringing new talent and fresh ideas into our ecosystem."
+            "A hub for developers, fostering innovation through hackathons, competitions, and monetization opportunities."
           }
         />
         <GameBox
           title={"House of Influencers"}
           text={
-            "A network of digital ambassadors who amplify engagement by promoting gamified content, driving user participation, and unlocking new revenue models through social-led gaming experiences."
+            " A platform for digital creators to co-own games, engage their audience, and create new revenue streams."
           }
         />
       </div>
@@ -35,21 +35,21 @@ function Games() {
         <GameBox
           title={"House of Brands"}
           text={
-            "A brand gamification engine, enabling businesses to connect with audiences through interactive campaigns. Brands sponsor games, offer rewards, and create immersive customer experiences"
+            "Helping businesses gamify their campaigns for higher engagement and brand recall."
           }
         />
 
         <GameBox
           title={"House of Digitization "}
           text={
-            "A platform for skill-based content where we digitize and gamify learning experiences, making education and training interactive, fun, and reward-driven."
+            "Transforming skill-based content into interactive learning experiences."
           }
         />
 
         <GameBox
-          title={""}
+          title={"House of Community"}
           text={
-            "A user engagement powerhouse, focused on building, managing, and sustaining a loyal player base. We transform users into an active gaming community that drives retention and growth."
+            "Building and managing an engaged user base through community-driven experiences."
           }
         />
       </div>

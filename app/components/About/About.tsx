@@ -12,17 +12,12 @@ function About() {
             Who we are
           </h1>
           <p className="text-white md:text-[13px] font-normal text-left">
-            We are the next-generation gaming and engagement company
-            revolutionizing how brands, influencers, and players interact.
-            Through our flagship platform, House of Chewata, we create
-            hyper-casual, skill-based games that entertain, educate, and reward.
-            Our platform seamlessly integrates gaming, brand engagement, and
-            influencer collaborations, turning everyday play into meaningful
-            interactions and monetization opportunities.With a focus on Africa,
-            the Middle East, and beyond, we are building a gamified
-            super-platform that connects users through innovative,
-            purpose-driven digital experiences—without the need for additional
-            downloads.
+            GOMIDA Solutions is a pioneering technology company that leverages
+            gamification to create interactive experiences for users while
+            providing brands and influencers with new ways to engage and
+            monetize. Through our House of Chewata platform, we develop
+            hyper-casual, skill-based games that entertain, educate, and reward
+            players—all seamlessly integrated into Telegram!
           </p>
         </div>
       </div>
@@ -32,17 +27,22 @@ function About() {
           <div className="flex flex-col gap-5">
             <h1 className="text-black text-[25px] font-normal">&nbsp;</h1>
             <p className="text-black text-[13px] font-normal text-left">
-              A next-generation gaming and engagement company revolutionizing
-              how brands, influencers, and players interact. Through our
-              flagship platform, House of Chewata, we create hyper-casual,
-              skill-based games that entertain, educate, and reward. Our
-              platform seamlessly integrates gaming, brand engagement, and
-              influencer collaborations, turning everyday play into meaningful
-              interactions and monetization opportunities.With a focus on
-              Africa, the Middle East, and beyond, we are building a gamified
-              super-platform that connects users through innovative,
-              purpose-driven digital experiences—without the need for additional
-              downloads.
+              ✅ Skill-Based, No Luck, No Betting – Our games reward skill and
+              strategy,
+              <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; eliminating gambling
+              mechanics.
+              <br />
+              ✅ Monetization for Developers & Influencers – A sustainable
+              revenue model
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; that empowers creators.{" "}
+              <br />
+              ✅ Gamified Marketing for Brands – Transforming passive ads into
+              interactive <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;engagement.
+              <br />✅ Seamless Integration – No app downloads required;
+              everything runs within familiar <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;messaging ecosystems.
             </p>
           </div>
         </div>
@@ -53,11 +53,9 @@ function About() {
               Our vision
             </h1>
             <p className="text-[#D9D9D9] text-[13px] font-normal text-left">
-              To become the leading gamified engagement ecosystem, bridging the
-              gap between players, brands, and influencers through immersive
-              digital experiences. We envision a future where gaming is more
-              than just entertainment—it’s a tool for education, engagement, and
-              economic empowerment.
+              To revolutionize digital engagement by turning everyday actions
+              into rewarding experiences, ensuring entertainment meets impact.
+              Play- learn and earn.
             </p>
           </div>
         </div>

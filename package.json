@@ -11,14 +11,19 @@
   "dependencies": {
     "@gsap/react": "^2.1.2",
     "@studio-freight/react-lenis": "^0.0.47",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "gsap": "^3.12.7",
     "lenis": "^1.1.21",
+    "lucide-react": "^0.482.0",
     "next": "14.2.13",
     "next-view-transitions": "^0.3.4",
     "ogl": "^1.0.11",
     "react": "^18",
     "react-dom": "^18",
-    "split-type": "^0.3.4"
+    "split-type": "^0.3.4",
+    "tailwind-merge": "^3.0.2",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@iconify/react": "^5.2.0",

@@ -71,7 +71,7 @@ function Video() {
           <video
             ref={videoRef}
             className="w-full md:h-[500px] h-auto object-cover rounded-lg"
-            src="/video.mp4"
+            src="/video.MP4"
             onError={handleVideoError}
             onLoadedData={handleVideoLoaded}
             onPause={() => setIsPlaying(false)}

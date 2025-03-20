@@ -29,7 +29,6 @@ function Video() {
             ref={videoRef}
             className="w-full md:h-[500px] h-auto object-cover rounded-lg"
             src="/video.mp4"
-            poster="/placeholder.svg?height=500&width=800"
             onPause={() => setIsPlaying(false)}
             onEnded={() => setIsPlaying(false)}
           />

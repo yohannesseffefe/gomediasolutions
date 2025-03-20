@@ -16,7 +16,7 @@ function Teams() {
           <Team
             name={"Natnael Ghirma"}
             photo={"/nati.jpg"}
-            position={"CEO - Founder"}
+            position={"CTO"}
           />
           <Team
             name={"Bisrategebriel Tewedros"}

@@ -4,8 +4,13 @@ import Button from "../Button/Button";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect } from "react";
-
+import { useRouter } from "next/navigation";
 function Banner() {
+  const router = useRouter();
+
+  const handleClick = () => {
+    router.push("https://t.me/houseofchewataBot");
+  };
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -50,7 +55,7 @@ function Banner() {
         Gomida solutions
       </h1>
       <p className="md:text-[16px] text-[13px]">Connecting the dots!</p>
-      <Button title={"Play Now"} onClick={() => {}} />
+      <Button title={"Play Now"} onClick={handleClick} />
     </div>
   );
 }

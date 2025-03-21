@@ -79,7 +79,7 @@ function Video() {
           />
 
           {/* Error message */}
-          {/* {error && (
+          {error && (
             <div className="absolute inset-0 bg-black/80 flex flex-col items-center justify-center text-white p-6 text-center">
               <AlertCircle size={48} className="text-red-500 mb-4" />
               <p className="max-w-md">{error}</p>
@@ -92,7 +92,7 @@ function Video() {
                 </ul>
               </div>
             </div>
-          )} */}
+          )}
 
           {/* Preview overlay - only show if no error and video is loaded */}
           {!error && isLoaded && (

@@ -1,10 +1,11 @@
 "use client";
 import { useRef, useState, useEffect } from "react";
-import "./Video.css";
+import type React from "react";
+
 import { Play, AlertCircle } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-function Video() {
+export default function Video() {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -28,7 +29,10 @@ function Video() {
     }
   };
 
-  const handleVideoError = () => {
+  const handleVideoError = (
+    e: React.SyntheticEvent<HTMLVideoElement, Event>
+  ) => {
+    console.error("Video error:", e);
     setError(
       "Video could not be loaded. Please check if the file exists and is in a supported format."
     );
@@ -44,13 +48,13 @@ function Video() {
   useEffect(() => {
     // Create a new XMLHttpRequest to check if the video file exists
     const xhr = new XMLHttpRequest();
-    xhr.open("HEAD", "/video.mp4", true);
+    xhr.open("HEAD", "/howto.mp4", true);
     xhr.onload = () => {
       if (xhr.status >= 200 && xhr.status < 300) {
         setIsLoaded(true);
       } else {
         setError(
-          `Video file not found (${xhr.status}). Check if '/video.mp4' exists in your public directory.`
+          `Video file not found (${xhr.status}). Check if '/howto.mp4' exists in your public directory.`
         );
       }
     };
@@ -67,7 +71,7 @@ function Video() {
           How-To Video
         </div>
         <div className="relative flex justify-center items-center">
-          {/* Video element */}
+          {/* Video element with iOS-specific attributes */}
           <video
             ref={videoRef}
             className="w-full md:h-[500px] h-auto object-cover rounded-lg"
@@ -76,22 +80,25 @@ function Video() {
             onLoadedData={handleVideoLoaded}
             onPause={() => setIsPlaying(false)}
             onEnded={() => setIsPlaying(false)}
+            playsInline
+            preload="metadata"
+            controls={isPlaying}
+            muted
           />
 
           {/* Error message */}
           {error && (
             <div className="absolute inset-0 bg-black/80 flex flex-col items-center justify-center text-white p-6 text-center">
-              {/* <AlertCircle size={48} className="text-red-500 mb-4" />
+              <AlertCircle size={48} className="text-red-500 mb-4" />
               <p className="max-w-md">{error}</p>
               <div className="mt-4 text-sm opacity-80">
                 <p>Make sure:</p>
                 <ul className="list-disc text-left pl-5 mt-2">
                   <li>The video file exists in your public directory</li>
                   <li>The file format is supported (.mp4, .webm, .ogg)</li>
-                  <li>The path is correct (/video.mp4)</li>
+                  <li>The path is correct (/howto.mp4)</li>
                 </ul>
-              </div> */}
-              loading
+              </div>
             </div>
           )}
 
@@ -114,5 +121,3 @@ function Video() {
     </div>
   );
 }
-
-export default Video;

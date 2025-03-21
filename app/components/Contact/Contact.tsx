@@ -49,6 +49,12 @@ function Contact() {
           </Link>
 
           <Link
+            href={"https://x.com/houseofchewata_?s=21&t=4WwEkHbpbzPn5ZRUvVNvuQ"}
+          >
+            <Icon icon="prime:twitter" className="text-white text-[30px]" />
+          </Link>
+
+          <Link
             href={"https://youtube.com/@gomidasolutions?si=801sbWwQxvmVId_q"}
           >
             <Icon

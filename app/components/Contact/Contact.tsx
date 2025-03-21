@@ -6,9 +6,11 @@ function Contact() {
   return (
     <div className="section contact flex  flex-col-reverse gap-10 ">
       <div className="flex flex-col gap-5 md:w-1/2 w-full">
-        <span className="flex w-[216px] h-[38px] items-center justify-center bg-[#D9D9D9] rounded-full">
-          Gomida Solutions
-        </span>
+        <Link href={"/whitepaper"}>
+          <span className="flex w-[216px] h-[38px] items-center justify-center bg-[#D9D9D9] rounded-full">
+            Gomida Solutions
+          </span>
+        </Link>
         <h1 className="text-[45px] font-normal text-white">Lets talk</h1>
 
         <p className="text-white text-[12px]">info@gomidasolutions.com</p>

@@ -11,8 +11,8 @@ function Contact() {
         </span>
         <h1 className="text-[45px] font-normal text-white">Lets talk</h1>
 
-        <p className="text-white text-[12px]">info@gomediasolutions.com</p>
-        <p className="text-white text-[12px]">+251 911 123456</p>
+        <p className="text-white text-[12px]">info@gomidasolutions.com</p>
+        <p className="text-white text-[12px]">+251 913 592636</p>
         <p className="text-white text-[12px]">Addis Abeba, Ethiopia</p>
         <div className="flex gap-3">
           <Link

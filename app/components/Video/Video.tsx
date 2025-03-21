@@ -81,7 +81,7 @@ function Video() {
           {/* Error message */}
           {error && (
             <div className="absolute inset-0 bg-black/80 flex flex-col items-center justify-center text-white p-6 text-center">
-              <AlertCircle size={48} className="text-red-500 mb-4" />
+              {/* <AlertCircle size={48} className="text-red-500 mb-4" />
               <p className="max-w-md">{error}</p>
               <div className="mt-4 text-sm opacity-80">
                 <p>Make sure:</p>
@@ -90,7 +90,8 @@ function Video() {
                   <li>The file format is supported (.mp4, .webm, .ogg)</li>
                   <li>The path is correct (/video.mp4)</li>
                 </ul>
-              </div>
+              </div> */}
+              loading
             </div>
           )}
 

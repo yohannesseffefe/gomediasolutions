@@ -8,7 +8,7 @@ function Contact() {
       <div className="flex flex-col gap-5 md:w-1/2 w-full">
         <Link href={"/whitepaper"}>
           <span className="flex w-[216px] h-[38px] items-center justify-center bg-[#D9D9D9] rounded-full">
-            Gomida Solutions
+            white paper
           </span>
         </Link>
         <h1 className="text-[45px] font-normal text-white">Lets talk</h1>

@@ -9,15 +9,11 @@ function Teams() {
         </h1>
         <div className="flex gap-5 justify-between items-center w-full md:flex-row flex-col">
           <Team
-            name={"Selam"}
+            name={"Selam Wondim Gebremedhin"}
             photo={"/selam.jpg"}
             position={"CEO - Founder"}
           />
-          <Team
-            name={"Natnael Ghirma"}
-            photo={"/nati.jpg"}
-            position={"CTO"}
-          />
+          <Team name={"Natnael Ghirma"} photo={"/nati.jpg"} position={"CTO"} />
           <Team
             name={"Bisrategebriel Tewedros"}
             photo={"/bisrat.jpg"}
@@ -38,7 +34,7 @@ function Teams() {
           />
           <Team name={"Eyobe "} photo={"/eyob.jpg"} position={"Developer"} />
           <Team
-            name={"Munir Burhan"}
+            name={"Munir Brehan"}
             photo={"/munir.jpg"}
             position={"Advisor"}
           />

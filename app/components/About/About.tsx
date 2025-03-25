@@ -3,7 +3,7 @@ import "./About.css";
 function About() {
   return (
     <div className="section flex md:flex-row flex-col justify-center items-center gap-7">
-      <div className="flex items-start justify-between md:h-[700px] h-auto md:w-1/2 w-full bg-[#545061] p-[20px] rounded-[20px] flex-col">
+      <div className="flex items-start justify-between md:h-[600px] h-auto md:w-1/2 w-full bg-[#545061] p-[20px] rounded-[20px] flex-col">
         <h1 className="text-white md:text-[90px] text-[45px] font-normal">
           01
         </h1>
@@ -21,7 +21,7 @@ function About() {
           </p>
         </div>
       </div>
-      <div className="flex items-start justify-between md:h-[700px] h-auto md:w-1/2 w-full  rounded-[20px] flex-col gap-4">
+      <div className="flex items-start justify-between md:h-[600px] h-auto md:w-1/2 w-full  rounded-[20px] flex-col gap-4">
         <div className="flex bg-white flex-col  justify-between  md:h-[350px] h-auto rounded-[20px] p-[20px] w-full ">
           <h1 className="text-black text-[45px] font-normal">02</h1>
           <div className="flex flex-col gap-3">
@@ -59,7 +59,7 @@ function About() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col border-solid justify-between border-[2px] md:h-[317px] rounded-[20px] p-[20px] w-full border-[#CAC8C1]">
+        <div className="flex flex-col border-solid justify-between border-[2px] md:h-[217px] rounded-[20px] p-[20px] w-full border-[#CAC8C1]">
           <h1 className="text-[#D9D9D9] text-[45px] font-normal">03</h1>
           <div className="flex flex-col gap-5">
             <h1 className="text-[#D9D9D9] text-[25px] font-normal">

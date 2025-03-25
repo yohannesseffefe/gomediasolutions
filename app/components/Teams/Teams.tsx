@@ -33,7 +33,7 @@ function Teams() {
             position={"Developer"}
           />
           <Team
-            name={"Eyobe Brehan"}
+            name={"Eyobe Berhanu"}
             photo={"/eyob.jpg"}
             position={"Developer"}
           />

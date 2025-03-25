@@ -24,25 +24,38 @@ function About() {
       <div className="flex items-start justify-between md:h-[700px] h-auto md:w-1/2 w-full  rounded-[20px] flex-col gap-4">
         <div className="flex bg-white flex-col  justify-between  md:h-[350px] h-auto rounded-[20px] p-[20px] w-full ">
           <h1 className="text-black text-[45px] font-normal">02</h1>
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-3">
             <h1 className="text-black text-[25px] font-normal">Why GOMIDA? </h1>
-            <p className="text-black text-[13px] font-normal text-left">
-              ✅ Skill-Based, No Luck, No Betting – Our games reward skill and
-              strategy,
-              <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; eliminating gambling
-              mechanics.
+            <p className="text-black text-[13px] gap-3 font-normal text-left flex items-start justify-start">
+              <span>✔</span>{" "}
+              <span>
+                Skill-Based, No Luck, No Betting – Our games reward skill and
+                strategy, eliminating gambling mechanics.
+              </span>
+            </p>
+            <p className="text-black text-[13px] gap-3 font-normal text-left flex items-start justify-start">
+              <span>✔</span>
+              <span>
+                {" "}
+                Monetization for Developers & Influencers – A sustainable
+                revenue model that empowers creators.
+              </span>
+            </p>
+
+            <p className="text-black text-[13px] gap-3 font-normal text-left flex items-start justify-start">
+              <span>✔</span>
+              <span>
+                Gamified Marketing for Brands – Transforming passive ads into
+                interactive engagement.
+              </span>
+            </p>
+            <p className="text-black text-[13px] gap-3 font-normal text-left flex items-start justify-start">
+              <span>✔</span>
+              <span>
+                Seamless Integration – No app downloads required; everything
+                runs within familiar messaging ecosystems.
+              </span>
               <br />
-              ✅ Monetization for Developers & Influencers – A sustainable
-              revenue model
-              <br />
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; that empowers creators.{" "}
-              <br />
-              ✅ Gamified Marketing for Brands – Transforming passive ads into
-              interactive <br />
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;engagement.
-              <br />✅ Seamless Integration – No app downloads required;
-              everything runs within familiar <br />
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;messaging ecosystems.
             </p>
           </div>
         </div>

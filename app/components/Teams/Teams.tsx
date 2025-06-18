@@ -15,14 +15,14 @@ function Teams() {
           />
           <Team name={"Natnael Ghirma"} photo={"/nati.jpg"} position={"CTO"} />
           <Team
+            name={"Haimanot Haile"}
+            photo={"/haymanot.jpg"}
+            position={"Head of Resource Management"}
+          />
+          <Team
             name={"Bisrategebriel Tewedros"}
             photo={"/bisrat.jpg"}
             position={"Project Manager"}
-          />
-          <Team
-            name={"Yohannes Seffefe"}
-            photo={"/yohannes.jpg"}
-            position={"Developer"}
           />
         </div>
 
@@ -33,10 +33,11 @@ function Teams() {
             position={"Developer"}
           />
           <Team
-            name={"Eyobe Berhanu"}
-            photo={"/eyob.jpg"}
+            name={"Yohannes Seffefe"}
+            photo={"/yohannes.jpg"}
             position={"Developer"}
           />
+
           <Team
             name={"Munir Burhan"}
             photo={"/munir.jpg"}

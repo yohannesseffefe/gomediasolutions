@@ -20,7 +20,7 @@ export default function RootLayout({
         <div className="gradient-bg"></div>
         <div className="border-top">
           <div className="logo">
-            <img src="/logo.png" width={100} />
+            <img src="/gomidalogo.png" width={100} />
           </div>
           <div className="nav"></div>
           <img

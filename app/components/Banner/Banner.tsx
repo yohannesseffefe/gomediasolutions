@@ -50,7 +50,7 @@ function Banner() {
   }, []);
   return (
     <div className="section hero flex justify-center flex-col items-center text-white gap-5">
-      <img src="/logo.webp" className="w-[400px] h-auto" />
+      <img src="/gomidalogo.png" className="w-[400px] h-auto" />
       <h1 className="md:text-[45px] text-[35px] font-extrabold text-center">
         Gomida solutions
       </h1>
